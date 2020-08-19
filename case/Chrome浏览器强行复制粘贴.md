@@ -9,8 +9,8 @@
 
 - 快捷键 F12 或 鼠标右键 选择 inspect(审查元素)
 - 点击 Console
-- 输入以下内容
+- 输入以下内容：
     - > javascript:(function() { function R(a){ona = "on"+a; if(window.addEventListener) window.addEventListener(a, function (e) { for(var n=e.originalTarget; n; n=n.parentNode) n[ona]=null; }, true); window[ona]=null; document[ona]=null; if(document.body) document.body[ona]=null; } R("contextmenu"); R("click"); R("mousedown"); R("mouseup"); R("selectstart");})()
-- 若仍然没法复制粘贴，按F1，勾选以下：
+- 若仍然没法复制粘贴，按F1，勾选：
     - color-code resource types
     - disabale javascript
